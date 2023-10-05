@@ -4,35 +4,35 @@ public class Creator {
     public static void main(String[] args) {
         String name = args[0];
 
-        Random CharClass = new Random();
-        int CharClassInt = CharClass.nextInt(3);
+        Random rng = new Random();
+        int charClassInt = rng.nextInt(3);
 
-        String CharClassString = "You are a ";
+        String charClassString = "You are a ";
 
-        Random strength = new Random();
-        int strengthValue = (strength.nextInt(11)) + 2;
-        Random health = new Random();
-        int healthValue = (health.nextInt(11)) + 2;
-        Random magic = new Random();
-        int magicValue = (magic.nextInt(11)) + 2;
+//        Random strength = new Random();
+        int stength = (rng.nextInt(11)) + 2;
+//        Random health = new Random();
+        int health = (rng.nextInt(11)) + 2;
+//        Random magic = new Random();
+        int magic = (rng.nextInt(11)) + 2;
 
-        if (CharClassInt == 0){
-            CharClassString += "mighty Warrior";
-            strengthValue *= 3;
-        } else if (CharClassInt == 1){
-            CharClassString += "powerfull Wizard";
-            magicValue *= 3;
-        } else if (CharClassInt == 2){
-            CharClassString += "tastefull Potato";
-            healthValue *= 3;
+        if (charClassInt == 0){
+            charClassString += "mighty Warrior";
+            stength *= 3;
+        } else if (charClassInt == 1){
+            charClassString += "powerfull Wizard";
+            magic *= 3;
+        } else if (charClassInt == 2){
+            charClassString += "tastefull Potato";
+            health *= 3;
         }
 
 
         System.out.println("Hello " + name);
-        System.out.println("You rolled a " + CharClassInt);
-        System.out.println(CharClassString);
-        System.out.println("Strength: " + strengthValue);
-        System.out.println("Magic: " + magicValue);
-        System.out.println("Health: " + healthValue);
+        System.out.println("You rolled a " + charClassInt);
+        System.out.println(charClassString);
+        System.out.println("Strength: " + stength);
+        System.out.println("Magic: " + magic);
+        System.out.println("Health: " + health);
     }
 }
