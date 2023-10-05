@@ -1,7 +1,11 @@
 # RPG-Character-Roller
 This is an asignment of our Java Training
+In this exercise I used following methods:
+  - Randomizer
+  - Control flow / conditionals with if statements
+  - Comparisons 
 
-# RPG Character Roller
+## The Assignment:
 
 Write a fantasy game character creator!
 
