@@ -5,6 +5,8 @@ In this exercise I used following methods:
   - Control flow / conditionals with if statements
   - Comparisons 
 
+![Screenshot of code](./img/Screenshot.png)
+
 ## The Assignment:
 
 Write a fantasy game character creator!
